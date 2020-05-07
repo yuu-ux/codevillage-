@@ -1,0 +1,26 @@
+
+@mixin pc {
+    @media screen and (min-width: 1000px) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media screen and (max-width: 999px){
+        @content;
+    }
+}
+
+@mixin sp {
+    @media screen and (max-width: 900px) {
+        @content;
+    }
+}
+
+.border:after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid black;
+    margin-left: 25px;
+    width: 100px;
+}
