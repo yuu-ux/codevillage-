@@ -1,0 +1,21 @@
+aside {
+    width: 16%;
+    .side-nav {
+        ul {
+            li {
+                font-size: 14px;
+                border: 2px solid #00000029;
+                height: 60px;
+                text-align: center;
+                line-height: 60px;
+                &:last-child {
+                    background-color: #222222;
+                    color: #ffffff;
+                }
+                .icon {
+                    margin-left: 112px;
+                }
+            }
+        }
+    }
+}

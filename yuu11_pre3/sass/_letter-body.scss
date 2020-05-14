@@ -1,0 +1,42 @@
+.letter-body {
+    margin-top: 60px;
+    margin-left: 320px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 310px;
+    height: 340px;
+    &:nth-child(1) {
+        margin-right: 150px;
+    }
+    &:nth-child(3) {
+        margin-right: 150px;
+    }
+    &:nth-child(5) {
+        margin-right: 150px;
+    }
+    .img {
+        background-image: url(../img/news.png);
+        width: 310px;
+        height: 150px;
+        background-size: cover;
+    }
+    .title {
+        width: 140px;
+        font-size: 14px;
+        font-family: ヒラギノ角ゴシック;
+        margin: 25px 155px 25px 17px;
+        &:after {
+            display: inline-block;
+            content: "";
+            border-bottom: 1px solid #E6E6E6;
+            width: 275px;
+            
+        }
+    }
+    .text {
+        font-size: 14px;
+    }
+}

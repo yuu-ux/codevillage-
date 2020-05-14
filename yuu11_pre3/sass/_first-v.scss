@@ -1,0 +1,57 @@
+.first-v {
+    width: 84%;
+    height: 425px;
+    .backcolor {
+        background-color: #000000;
+        background: rgba(0, 0, 0, 0.46);
+        width: 60%;
+        height: 132px;
+        position: absolute;
+        bottom: 0;
+    }
+    .sec {
+        height: 90px;
+        position: absolute;
+        top: 123px;
+        width: 40%;
+    }
+    .third {
+        height: 90px;
+        width: 40%;
+    }
+    .img-wrap {
+        display: flex;
+        position: relative;
+    }
+    .img-left {
+        background-image: url(../img/top1.png);
+        width: 60%;
+        height: 426px;
+        background-size: cover;
+    }
+    .img-right {
+        width: 40%;
+    }
+    .img-right-t {
+        background-image: url(../img/top2.png);
+        width: 100%;
+        height: 213px;
+        background-size: cover;
+    }
+    .img-right-b {
+        background-image: url(../img/top3.png);
+        width: 100%;
+        height: 213px;
+        background-size: cover;
+    }
+    .text {
+        color: #ffffff;
+        font-size: 20px;
+        font-family: ヒラギノ角ゴシック;
+        padding: 35px 90px 43px 54px;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+}

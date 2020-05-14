@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+.side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header {
+  width: 100%;
+  height: 53px;
+  background-color: #000000;
+}
+
+header .big-headline {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 53px;
+}
+
+aside {
+  width: 16%;
+}
+
+aside .side-nav ul li {
+  font-size: 14px;
+  border: 2px solid #00000029;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+aside .side-nav ul li:last-child {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+aside .side-nav ul li .icon {
+  margin-left: 112px;
+}
+
+.first-v {
+  width: 84%;
+  height: 425px;
+}
+
+.first-v .backcolor {
+  background-color: #000000;
+  background: rgba(0, 0, 0, 0.46);
+  width: 60%;
+  height: 132px;
+  position: absolute;
+  bottom: 0;
+}
+
+.first-v .sec {
+  height: 90px;
+  position: absolute;
+  top: 123px;
+  width: 40%;
+}
+
+.first-v .third {
+  height: 90px;
+  width: 40%;
+}
+
+.first-v .img-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.first-v .img-left {
+  background-image: url(../img/top1.png);
+  width: 60%;
+  height: 426px;
+  background-size: cover;
+}
+
+.first-v .img-right {
+  width: 40%;
+}
+
+.first-v .img-right-t {
+  background-image: url(../img/top2.png);
+  width: 100%;
+  height: 213px;
+  background-size: cover;
+}
+
+.first-v .img-right-b {
+  background-image: url(../img/top3.png);
+  width: 100%;
+  height: 213px;
+  background-size: cover;
+}
+
+.first-v .text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: ヒラギノ角ゴシック;
+  padding: 35px 90px 43px 54px;
+}
+
+.first-v .small {
+  font-size: 14px;
+}
+
+.letter-body {
+  margin-top: 60px;
+  margin-left: 320px;
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.item {
+  width: 310px;
+  height: 340px;
+}
+
+.item:nth-child(1) {
+  margin-right: 150px;
+}
+
+.item:nth-child(3) {
+  margin-right: 150px;
+}
+
+.item:nth-child(5) {
+  margin-right: 150px;
+}
+
+.item .img {
+  background-image: url(../img/news.png);
+  width: 310px;
+  height: 150px;
+  background-size: cover;
+}
+
+.item .title {
+  width: 140px;
+  font-size: 14px;
+  font-family: ヒラギノ角ゴシック;
+  margin: 25px 155px 25px 17px;
+}
+
+.item .title:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #E6E6E6;
+  width: 275px;
+}
+
+.item .text {
+  font-size: 14px;
+}
+
+.category {
+  width: 35%;
+  margin-right: 50px;
+  margin-top: 56px;
+}
+
+.category .title {
+  font-size: 21px;
+}
+
+.category .title:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #707070;
+  width: 356px;
+  margin-bottom: 33.5px;
+  margin-top: 21px;
+}
+
+.category .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  margin-bottom: 66px;
+}
+
+.category .text {
+  width: 227px;
+  height: 90px;
+  font-size: 14px;
+  font-family: ヒラギノ角ゴシック;
+  padding-left: 15px;
+  line-height: 18px;
+}
+
+.category .img {
+  background-image: url(../img/category.png);
+  background-size: cover;
+  width: 105px;
+  height: 90px;
+}
+
+.ad {
+  background-image: url(../img/ad.png);
+  width: 310px;
+  height: 235px;
+}
+
+.ad .text {
+  width: 100%;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  top: 195px;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 50px;
+  margin-top: 85px;
+}
+
+footer small {
+  color: #ffffff;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
